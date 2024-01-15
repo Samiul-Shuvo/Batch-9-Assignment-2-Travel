@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header section */
+header {
+  padding: 80px 120px;
+}
+nav > ul {
+  display: flex;
+}
+nav li a {
+  color: #3a3a3a;
+  text-decoration: none;
+}
+.nav-title {
+  color: #3a3a3a;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.nav-element {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid blue;
+}
+.nav-element li {
+  margin-right: 34px;
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
