@@ -159,82 +159,179 @@ ul {
   gap: 1.5rem;
   margin-bottom: 1.5rem;
 }
-.row img{
+.row img {
   width: 100%;
-  height: 100%;  
+  height: 100%;
 }
-.ma-bap{
+.ma-bap {
   text-align: center;
   margin: 6.25rem 15rem;
-
 }
 
-.destination-info h3{
+.destination-info h3 {
   color: #131318;
-text-align: center;
-font-size: 2.5rem;
-font-weight: 800;
-margin-bottom: 24px;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 24px;
 }
-.destination-info p{
-  color: rgba(19, 19, 24, 0.70);
+.destination-info p {
+  color: rgba(19, 19, 24, 0.7);
   text-align: center;
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 3rem;
 }
-.first-img{
+.first-img {
   position: relative;
 }
 
 /* Why Choose Us */
 
-.why-choose{
+.why-choose-us{
+  color: #131318;
 text-align: center;
-margin: 0 10rem;
+font-size: 2.5rem;
+font-weight: 800;
+}
+.gray-color{
+  color: rgba(19, 19, 24, 0.70);
+font-size: 1rem;
+font-weight: 400;
+}
+.why-choose {
+  text-align: center;
+  margin: 0 10rem;
 }
 
-
-.hand-picked-hotels{
+.hand-picked-hotels {
   border-radius: 16px;
-border: 1px solid rgba(251, 181, 99, 0.20);
-background: rgba(251, 181, 99, 0.05);
-padding: 32px;
-text-align: left;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 32px;
+  text-align: left;
 }
-.world-class-service{
+.world-class-service {
   border-radius: 16px;
-border: 1px solid rgba(41, 206, 246, 0.20);
-background: rgba(41, 206, 246, 0.05);
-text-align: left;
-padding: 32px;
-
-
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  text-align: left;
+  padding: 32px;
 }
-.hand-picked{
+.hand-picked {
   display: flex;
-gap: 1.5rem;
-margin-bottom: 1.5rem;
-
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
 }
-.best-price{
-  
+.best-price {
   text-align: left;
   padding: 32px;
   max-width: 573px;
   margin: 0 auto;
   border-radius: 16px;
-border: 1px solid rgba(233, 68, 68, 0.20);
-background: rgba(233, 68, 68, 0.05);
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
 }
-/* .try{
+/* Discount Section */
+.discounts{
+  text-align: center;
+  margin-top: 1.5rem;
+  margin: 10%;
+}
+.image-one {
+  background: url("../Images/Group\ 39.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 16px;
+  padding: 5%;
+  margin-bottom: 1.5rem;
+}
+.image-two {
+  background: url("../Images/Group\ 40.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 16px;
+  padding: 5%;
+  margin-bottom: 1.5rem;
+
+
+}
+.image-three {
+  background: url("../Images/Group\ 39.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 16px;
+  padding: 5%;
+  margin-bottom: 1.5rem;
+
+
+}
+.transparent{
+border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+margin: 3.5rem 3.5rem 3.5rem 33.4rem;
+padding: 5%;
+text-align: left;
+}
+
+.same-deg{
+  color: #131318;
+font-size: 1.5rem;
+font-weight: 800;
+margin-bottom:1rem ;
+}
+.price{
+  color: #FF5400;
+font-size: 1.25rem;
+font-weight: 800;
+margin-bottom: 1.5rem;
+}
+.discounts  > div > h2{
+  color: #131318;
+text-align: center;
+font-size: 2.5rem;
+font-weight: 800;
+}
+.discounts > div > p{
+  color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 1rem;
+font-weight: 400;
+}
+.jaiga-banao{
   display: flex;
-  
+  gap: 1rem;
+  margin-right: 1.5rem;
+  text-align: center;
 }
-.try > img{
-  flex:  15 1 auto;
-} */
-/* Mobile Screen */
+.soja-koro{
+  display: flex;
+  text-align: center;
+  margin-right: 10px;
+}
+
+
+
+
+
+/* Simple Perfect */
+.simple-perfect{
+  display: flex;
+  margin: 0px 8rem;
+  padding-left: 5%;
+  gap: 1.5rem;
+}
+.simple-perfect > div > h2{
+  color: #131318;
+font-size: 2.5rem;
+font-weight: 800;
+}
+/* * Mobile Screen */ 
 @media only screen and (max-width: 600px) {
   .our-tour {
     display: block;
@@ -242,14 +339,36 @@ background: rgba(233, 68, 68, 0.05);
     padding: 0px;
     gap: 20px;
   }
+  .simple-perfect{
+    margin: 0 auto;
+    padding: 19px;
+  }
+  .video-container {
+    position: relative;
+    width: 100%;
+    max-width: 560px; /* Adjust as needed */
+    padding-bottom: 56.25%; /* Maintains aspect ratio */
+    height: 0; /* Hides overflow */
+  }
+
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+    .transparent{
+    margin:  11.6rem 1rem 1rem 1rem;
+  }
   .tour-bg-img {
     margin-top: 2rem;
     width: 100%;
   }
-  .nav-element {
+  .nav-element,.soja-koro, .simple-perfect{
     display: block;
   }
-  .hand-picked{
+  .hand-picked {
     display: block;
   }
   .first-bg h1 {
@@ -259,23 +378,22 @@ background: rgba(233, 68, 68, 0.05);
     display: block;
     padding: 20px;
   }
-  .why-choose{
+  .why-choose {
     margin: 1rem 2rem;
   }
-  .hand-picked-hotels{
+  .hand-picked-hotels {
     margin-bottom: 1rem;
   }
   .nav-element ul {
     margin-top: 20px;
   }
-  .ma-bap{
+  .ma-bap {
     margin: 5rem 8rem;
   }
 
-  .row{
+  .row {
     flex-direction: column;
     height: auto;
     width: 100%;
-
   }
 }
