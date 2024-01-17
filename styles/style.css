@@ -331,6 +331,62 @@ font-weight: 400;
 font-size: 2.5rem;
 font-weight: 800;
 }
+
+/* NewsLetter Section */
+.News-letter{
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  margin: 100px;
+  gap: 2rem;
+}
+.news-description{
+  border-radius: 16px;
+border: 1px solid #FF5400;
+padding: 40px;
+
+}
+.input-field input{
+  display: block;
+  padding: 16px 250px 16px 25px;
+  border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+margin-bottom: 1.25rem;
+border: none;
+}
+#Sub-btn{
+  width: 100%;
+}
+.news-description > h3{
+  color: #131318;
+font-size: 1.5rem;
+font-weight: 800;
+margin-bottom: 1rem;
+}
+.discount-image{
+position: relative;
+}
+.discount-image img{
+  width: 100%;
+  height: 100%;
+}
+.upore {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* width: 100%; */
+  transform: rotate(-25deg); /* Rotates text 45 degrees */
+  top: 70%;
+  left: 62%;
+  bottom: 11%;
+  /* transform-origin:right bottom; Sets rotation origin */
+  /* color: white; */
+  /* padding: 10px; */
+  /* text-align: center; */
+}
+/*  */
+footer
+
 /* * Mobile Screen */ 
 @media only screen and (max-width: 600px) {
   .our-tour {
@@ -346,9 +402,9 @@ font-weight: 800;
   .video-container {
     position: relative;
     width: 100%;
-    max-width: 560px; /* Adjust as needed */
-    padding-bottom: 56.25%; /* Maintains aspect ratio */
-    height: 0; /* Hides overflow */
+    max-width: 560px; 
+    padding-bottom: 56.25%; 
+    height: 0; 
   }
 
   .video-container iframe {
@@ -365,8 +421,24 @@ font-weight: 800;
     margin-top: 2rem;
     width: 100%;
   }
-  .nav-element,.soja-koro, .simple-perfect{
+  .nav-element,.soja-koro, .simple-perfect, .News-letter{
     display: block;
+  }
+  .upore{
+    transform: rotate(-20deg);
+  }
+  .input-field input{
+    width: 10%;
+  }
+  .news-description{
+    margin-bottom: 1.5rem;
+  }
+  .upore h2{
+    padding-bottom: 20px;
+  }
+  .okok{
+    font-size: 60%;
+
   }
   .hand-picked {
     display: block;
