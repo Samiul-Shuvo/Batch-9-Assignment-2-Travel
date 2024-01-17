@@ -474,7 +474,7 @@ font-weight: 400;
 }
 
 /* * Mobile Screen */ 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .our-tour {
     display: block;
     width: 70%;
