@@ -14,6 +14,9 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
     <title>Apex Safari</title>
   </head>
   <body>
@@ -25,7 +28,10 @@
             Apex <span style="color: #ff5400">Safari</span>
           </h3>
         </div>
-        <ul>
+        <div class="burger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <ul class="the-list">
           <li><a style="color: #ff5400" href="" class="nav-tag">Home</a></li>
           <li><a href="" class="nav-tag">Packages</a></li>
           <li><a href="" class="nav-tag">Testimonial</a></li>
@@ -102,20 +108,56 @@
           </p>
         </div>
         <div>
-          <div class="row">
-            <img class="first-img" src="Images/Rectangle 5.png" alt="" />
-            <!-- <h2>Maldives</h2> -->
-            <img class="first-row" src="Images/Rectangle 8.png" alt="" />
-          </div>
-          <div class="row">
-            <img src="Images/Rectangle 6.png" alt="" />
-            <img src="Images/Rectangle 7.png" alt="" />
-            <img src="Images/Rectangle 9.png" alt="" />
-          </div>
-          <div class="row">
-            <img src="Images/Rectangle 11.png" alt="" />
-            <img src="Images/Rectangle 10.png" alt="" />
-          </div>
+            <div class="image-row">
+                <div class="image-box">
+                    <img src="Images/Rectangle 5.png" alt="Image 1">
+                    <h2 class="centered-text">
+                        Maldives
+                    </h2>
+                </div>
+                <div class="image-box">
+                    <img src="Images/Rectangle 8.png" alt="Image 2">
+                    <h2 class="centered-text">
+                        Indonesia
+                    </h2>
+                </div>
+            </div>
+            
+            <div class="image-row">
+                <div class="image-box">
+                    <img style="height: 100%; width: 100%;" src="Images/Rectangle 6.png" alt="Image 3">
+                    <h2 class="centered-text">
+                        Srilanka
+                    </h2>
+                </div>
+                <div class="image-box">
+                    <img style="height: 100%; "src="Images/Rectangle 7.png" alt="Image 4">
+                    <h2 class="centered-text">
+                        North America
+                    </h2>
+                </div>
+                <div class="image-box">
+                    <img src="Images/Rectangle 9.png" alt="Image 5">
+                    <h2 class="centered-text">
+                        Kashmir                    </h2>
+                </div>
+            </div>
+            
+            <div class="image-row">
+                <div  class="image-box">
+                    <img style="height: 73%;" src="Images/Rectangle 11.png" alt="Image 6">
+                    <h2 style="height: 40%;" class="centered-text">
+                        Bangladesh
+                    </h2>
+                </div>
+                <div class="image-box">
+                    <img src="Images/Rectangle 10.png" alt="Image 7">
+                    <h2 style="height: 40%;"  class="centered-text">
+                        Bandarban
+                    </h2>
+                </div>
+            </div>
+        </div>
         </div>
       </section>
       <section class="why-choose">
@@ -258,15 +300,23 @@
       </section>
     </main>
     <footer>
+     <div class="footer-align">
         <div>
-
-        </div>
-        <p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p>
+            <img src="Images/Group 40071 (2).png" alt="" />
+            <h3 class="nav-title">
+              Apex <span style="color: #ff5400">Safari</span>
+            </h3>
+          </div>
+        <p class="foot-p">Let every journey be a testament to the beauty of the world and the indomitable spirit of exploration.<br>Thank you for choosing us as your travel companion. Here's to a lifetime of extraordinary adventures!</p>
         <div>
-
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>     
+            <i class="fa-brands fa-instagram"></i>       
+            <i class="fa-brands fa-github"></i>
         </div>
         <hr>
-        <p>2017, All Rights Reserved.</p>
+        <p class="foot-pp">2024, All Rights Reserved.</p>
+     </div>
     </footer>
   </body>
 </html>
